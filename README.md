@@ -1,85 +1,60 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Karin Games Studios</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #1e1e2f, #3a3a5f);
-      color: white;
-      text-align: center;
-    }
-
-    header {
-      padding: 50px 20px;
-    }
-
-    h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 18px;
-      opacity: 0.8;
-    }
-
-    .container {
-      margin-top: 40px;
-    }
-
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 15px 25px;
-      background: #00c3ff;
-      color: black;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background: #00a2d6;
-    }
-
-    footer {
-      margin-top: 60px;
-      padding: 20px;
-      font-size: 14px;
-      opacity: 0.6;
-    }
-  </style>
+    <title>karingames™</title>
 </head>
+<style>
+body {
+    background-image: url("https://img.itch.zone/aW1nLzIzMTE0OTQ2LnBuZw==/original/vQR966.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0; 
+}
 
-<body>
+</style>
 
-  <header>
-    <h1>Karin Games Studios 🎮</h1>
-    <p>Desarrollador de juegos pixel art</p>
-  </header>
+    <style> body {background-color: rgb(59, 189, 76);} </style>
+    <style> body {text-align: center;}
 
-  <div class="container">
-    
-    <!-- 🔗 BOTÓN A TU WEB OFICIAL -->
-    <a class="btn" href="https://karingames.itch.io" target="_blank">
-      🌐 Página Oficial
-    </a>
+.contenedor {
+    display: flex;
+    justify-content: center; /* centra todo */
+    align-items: flex-start;
+    margin-top: 30px;
+}
 
-    <!-- 🔗 BOTÓN A GOOGLE PLAY -->
-    <a class="btn" href="https://play.google.com/store/apps/dev?id=5098818832979514631" target="_blank">
-      📱 Descargar en Google Play
-    </a>
+.columna {
+    width: 500px;
+}
 
-  </div>
+.linea-vertical {
+    width: 3px;
+    height: 500px;
+    background-color: rgb(24, 82, 6);
+    margin: 0 150px;
+}
+</style>
 
-  <footer>
-    © 2026 Karin Games Studios
-  </footer>
+<h1><em>karingames™</em></h1>
 
-</body>
+<div class="contenedor">
+    <div class="columna">
+        <h2 style="border: 2px solid rgb(207, 188, 17); color: rgb(209, 224, 195); background-color: rgba(33, 99, 36, 0.5);" >Juegos</h2>
+    </div>
+
+    <div class="linea-vertical"></div>
+
+    <div class="columna">
+        <h2 style="border: 2px solid rgb(207, 188, 17); color: rgb(209, 224, 195); background-color: rgba(33, 99, 36, 0.5);" 
+        >Noticias</h2>
+        <img src="https://img.itch.zone/aW1nLzE5NTg3NTc5LmdpZg==/original/EJDFCy.gif" style="width: 100px; height: 200px; object-fit: cover; ">
+        <img src="https://img.itch.zone/aW1nLzE4MzgxMTYxLmdpZg==/original/XSxxtq.gif" style="width: 100px; height: 200px; object-fit: cover; ">
+        <img src="https://img.itch.zone/aW1nLzE4MzUyNTcwLmdpZg==/original/yoIx1K.gif" style="width: 100px; height: 200px; object-fit: cover; ">
+        <p style=" color: rgb(4, 66, 7); color: rgb(4, 66, 7); font-size: 13px; border: 2px solid; width: 400px; padding: 10px; margin: 0 auto;"
+        >altima noticia, el juego Frutiger stickman llega a los 1200 descargas</p>
+    </div>
+</div>
 </html>
