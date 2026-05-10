@@ -3,9 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" href="pagina web1.png" as="image">
 <style>
+    @view-transition {
+    navigation: auto;
+    }
 body {
-    
     margin: 0;
     height: 100vh;
     display: flex;
@@ -19,7 +23,6 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
     margin: 0; 
-    
 }
 h1 {
     margin: 10px;
@@ -45,14 +48,16 @@ h1 {
     flex-direction: column;
     border-radius: 10px;
     border: 2px solid rgb(227, 243, 0, 0.452);
+    view-transition-name: mi-caja;
 }
 .titulo-juegos {
     margin: 0;
     padding: 10px;
     border-bottom: 2px solid rgba(39, 121, 31, 0.404);
     font-size: 24px;
-    background-color: #25d4155e;
     border: 2px solid rgb(227, 243, 0, 0.452);
+    background-color: #25d4155e;
+    border-radius: 7px;
     
 }
 .lista-juegos {
@@ -137,7 +142,9 @@ h1 {
         margin: 10px auto;
         width: 80%;
     }
+    
 }
+
 </style>
 </head>
 
@@ -214,7 +221,7 @@ h1 {
         <h2 class="titulo-juegos">Juegos</h2>
 
         <div class="lista-juegos">
-            <div class="juego"><a  href="https://karingames.itch.io/frutiger-stickman" class="juego" >(Frutiger stickman)</a></div>
+            <div class="juego"><a  href="Frutiger.html" class="juego" >(Frutiger stickman)</a></div>
             <div class="juego"><a  href="https://karingames.itch.io/karin-8bits" class="juego" >(Karin karin 8bits)</a></div>
         </div>
 
